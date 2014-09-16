@@ -1,0 +1,28 @@
+!!!
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{ site_title }
+        script(src="//use.typekit.net/mer5zti.js")
+        <script>try{Typekit.load();}catch(e){}</script>
+        link(rel="stylesheet", href="/assets/css/app.css")
+        link(rel="alternate", type="application/rss+xml", title="#{ site_title } RSS", href="/rss.xml")
+        link(href="//cdn.knightlab.com/libs/soundcite/latest/css/player.css", rel="stylesheet", type="text/css")
+        script(type='text/javascript', src='//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js')
+
+
+    body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
+        header
+            .container
+                .row
+                    .col-sm-12.title
+                        h1 Tyler Writes About Music
+            hr
+        article#content
+            .container.main-content
+                .row
+                    .col-sm-offset-2.col-sm-8.main
+                        != yield
+                        != partial("_partials/comments")
+            != partial("_partials/footer")

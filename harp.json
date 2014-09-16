@@ -1,0 +1,12 @@
+{
+  "domains": [""],
+  "globals": {
+    "site_title": "Tyler Writes About Music",
+    "twitter": "tylrfishr",
+    "site_url": "http://example.com",
+    "disqus": {
+      "enabled": false,
+      "shortname": ""
+    }
+  }
+}
