@@ -8,9 +8,6 @@ html(lang="en")
         <script>try{Typekit.load();}catch(e){}</script>
         link(rel="stylesheet", href="/assets/css/app.css")
         link(rel="alternate", type="application/rss+xml", title="#{ site_title } RSS", href="/rss.xml")
-        link(href="//cdn.knightlab.com/libs/soundcite/latest/css/player.css", rel="stylesheet", type="text/css")
-        script(type='text/javascript', src='//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js')
-
 
     body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
         header
@@ -26,3 +23,4 @@ html(lang="en")
                         != yield
                         != partial("_partials/comments")
             != partial("_partials/footer")
+        script(type='text/javascript', src='/assets/js/soundcite.js')
