@@ -1,6 +1,6 @@
 # Music
 
-_Built off Harp_
+_Built off [Harp](http://harp.io)_
 
 ## Index
 
