@@ -1,6 +1,6 @@
-# Harp’s Blog Boilerplate
+# Music
 
-_This is a boilerplate to use with the [Harp Platform](http://harp.io/) and/or the [Harp Server](http://harpjs.com/) (a static web server with built-in pre-processing powered by NodeJS)_
+_Built off Harp_
 
 ## Index
 
@@ -27,20 +27,12 @@ _This is a boilerplate to use with the [Harp Platform](http://harp.io/) and/or t
 2. Open your terminal and start a new project:
 
 ````
-$ git clone git@github.com:harp-boilerplates/hb-blog.git my-blog
-$ cd my-blog
-$ harp server -p 9966
+$ git clone git@github.com:TylerFisher/music.git
+$ cd music
+$ harp server
 ````
 
-Go to [http://localhost:9966](http://localhost:9966/) from your browser to see your website.
-
-### On the Harp Platform
-
-1. Login to the [Harp Platform](http://harp.io/)
-2. Create a new application
-3. Choose __Blog Boilerplate__ as your starting point
-4. Start your application
-5. Open and edit the files in your Dropbox
+Go to [http://localhost:9000](http://localhost:9000/) from your browser to see the website.
 
 ## Controlling your content
 
@@ -58,7 +50,7 @@ The layout of your site, including header, footer and sidebar. External scripts 
 
 ### `public/index.jade`
 
-This is the default page when you visit your domain (i.e.: `http://localhost:9966/`). Here we build the loop that goes through your posts and shows them in the front page.
+This is the default page when you visit your domain (i.e.: `http://localhost:9000/`). Here we build the loop that goes through your posts and shows them in the front page.
 
 ### `public/assets/css/app.less`
 
@@ -110,17 +102,7 @@ _public/about.html:_
 <p>I love fotoshapz and taking pictures of foods</p>
 ````
 
-__3__. Your can now access your page in your browser. I.e.: `http://localhost:9966/about`
-
-## Migrating from a WordPress blog
-
-If you’re planning to move your WordPress site to Harp, I’d recommend cloning it using wget or curl:
-
-This one-line terminal command will create a static replica of __yourwebsite.com__ in your computer, it’ll fix all the links to work locally and download all the necessary assets (images, javascript, css and other files):
-
-```
-$ wget --recursive --no-clobber --page-requisites --html-extension --convert-links yourwebsite.com
-```
+__3__. Your can now access your page in your browser. I.e.: `http://localhost:9000/about`
 
 ## Enabling/Disabling Comments
 
@@ -153,14 +135,3 @@ This is what it looks like when it’s enabled:
 }
 ...
 ```
-
-## TODO
-- Create sitemap.xml for improving SEO
-
-## Support
-
-Please [create an issue](https://github.com/harp-boilerplates/hb-blog/issues) on github’s bug tracker. Feedback and bug reports are greatly appreciated.
-
-## License
-
-MIT
