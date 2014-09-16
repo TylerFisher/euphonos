@@ -6,16 +6,9 @@ _Built off [Harp](http://harpjs.com)_
 
 - [How to use it?](#how-to-use-it)
     - [On your own computer](#on-your-own-computer)
-    - [On the Harp Platform](#on-the-harp-platform)
 - [Controlling your content](#controlling-your-content)
 - [Adding new posts](#adding-new-posts)
 - [Adding new pages](#adding-new-pages)
-- [Migrating from different platforms](#migrating-from-different-platforms)
-    - [WordPress](#wordpress)
-    - [Tumblr](#tumblr)
-- [TODOs](#todos)
-- [Support](#support)
-- [License](#license)
 
 ---
 
