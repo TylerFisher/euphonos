@@ -1,4 +1,5 @@
 @import '_bootstrap';
+@import 'font-awesome';
 
 /* Variables */
 
@@ -41,20 +42,34 @@ a {
 
 
 header {
-    background-color: rgba(0,0,0,.1);
+    background-color: @brand-primary;
+    color: white;
 }
 
 .title {
-    > h1 {
-        text-align: center;
+    text-align: center;
+
+    > h1 a {
+        color: white;
         text-transform: uppercase;
-        font-size: 72px;
+        font-size: 120px;
+        font-weight: 700;
 
         @media (max-width: @screen-sm) {
-            font-size: 48px;
+            font-size: 60px;
         }
         @media (min-width: @screen-sm) and (max-width: @screen-md) {
-            font-size: 56px;
+            font-size: 80px;
+        }
+    }
+    > h4 {
+        font-size: 48px;
+
+        @media (max-width: @screen-sm) {
+            font-size: 24px;
+        }
+        @media (min-width: @screen-sm) and (max-width: @screen-md) {
+            font-size: 32px;
         }
     }
 }
@@ -74,6 +89,29 @@ header {
     > p {
         font-size: 20px;
     }
+}
+
+.post-preview {
+    background-color: @brand-primary;
+    h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 28px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    a {
+        color: white;
+        span {
+            float: right;
+        }
+    }
+    &:hover {
+        background-color: darken(@brand-primary, 15%);
+        transition: all 0.5s;
+    }
+
 }
 
 /* Post */
@@ -123,19 +161,27 @@ footer {
     }
 }
 
+.m-scene .scene_element {
+  -webkit-animation-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+}
 
+.m-scene .scene_element--fadein {
+  -webkit-animation-name: fadeIn;
+}
 
-/*  Media Queries
-    Extra small devices (phones, up to 480px) No media query since this is the default in Bootstrap */
+.m-scene.is-exiting .scene_element {
+  -webkit-animation-direction: alternate-reverse;
+}
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) {}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) {}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) {}
+/*
+ * Keyframes
+ */
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 /* soundcite - v0.3.0 - 2014-06-16
  * Copyright (c) 2014 Tyler J. Fisher and Northwestern University Knight Lab

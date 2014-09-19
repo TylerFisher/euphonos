@@ -14,13 +14,17 @@ html(lang="en")
             .container
                 .row
                     .col-sm-12.title
-                        h1 Tyler Writes About Music
+                        h1
+                            a(href='localhost:9000/') Euphonos
+                        h4 An experiment in short-form music writing
             hr
-        article#content
-            .container.main-content
+        article#content.m-scene
+            .container.main-content.scene_element.scene_element--fadein
                 .row
-                    .col-sm-offset-2.col-sm-8.main
+                    .col-sm-12.main
                         != yield
                         != partial("_partials/comments")
-            != partial("_partials/footer")
+        script(type='text/javascript', src='/assets/js/jquery.min.js')
+        script(type='text/javascript', src='/assets/js/jquery.smoothstate.js')
         script(type='text/javascript', src='/assets/js/soundcite.js')
+        script(type='text/javascript', src='/assets/js/app.js')

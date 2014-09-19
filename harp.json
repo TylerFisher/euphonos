@@ -1,9 +1,9 @@
 {
   "domains": [""],
   "globals": {
-    "site_title": "Tyler Writes About Music",
+    "site_title": "Euphonos: An experiment in short-form music writing.",
     "twitter": "tylrfishr",
-    "site_url": "http://example.com",
+    "site_url": "http://euphonos.net",
     "disqus": {
       "enabled": false,
       "shortname": ""
