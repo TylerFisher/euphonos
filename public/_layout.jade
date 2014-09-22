@@ -10,20 +10,20 @@ html(lang="en")
         link(rel="alternate", type="application/rss+xml", title="#{ site_title } RSS", href="/rss.xml")
 
     body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
-        header
+        header.pulsate-bg
             .container
                 .row
                     .col-sm-12.title
-                        h1
-                            a(href='localhost:9000/') Euphonos
-                        h4 An experiment in short-form music writing
-            hr
+                        h1 Euphonos
+                        h4 An experiment in short-form music writing by&nbsp;
+                            a(href="http://twitter.com/tylrfishr") Tyler Fisher
         article#content.m-scene
             .container.main-content.scene_element.scene_element--fadein
                 .row
                     .col-sm-12.main
                         != yield
                         != partial("_partials/comments")
+
         script(type='text/javascript', src='/assets/js/jquery.min.js')
         script(type='text/javascript', src='/assets/js/jquery.smoothstate.js')
         script(type='text/javascript', src='/assets/js/soundcite.js')

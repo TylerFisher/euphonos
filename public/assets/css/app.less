@@ -1,5 +1,5 @@
 @import '_bootstrap';
-@import 'font-awesome';
+@import '_font-awesome';
 
 /* Variables */
 
@@ -23,8 +23,7 @@ a {
 }
 
 .main-content {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 /* HTML Elements */
@@ -44,26 +43,36 @@ a {
 header {
     background-color: @brand-primary;
     color: white;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+
+    @media (min-width: 600px) {
+        margin-bottom: 50px;
+    }
 }
 
 .title {
     text-align: center;
 
-    > h1 a {
-        color: white;
+    > h1 {
         text-transform: uppercase;
         font-size: 120px;
         font-weight: 700;
 
         @media (max-width: @screen-sm) {
-            font-size: 60px;
+            font-size: 48px;
         }
         @media (min-width: @screen-sm) and (max-width: @screen-md) {
             font-size: 80px;
         }
     }
     > h4 {
-        font-size: 48px;
+
+        font-size: 40px;
+        a {
+            color: white;
+            text-decoration: underline;
+        }
 
         @media (max-width: @screen-sm) {
             font-size: 24px;
@@ -75,89 +84,96 @@ header {
 }
 
 .main {
-    > h2 {
-        margin-top: 50px;
-        border-top: solid 1px #f4f4f4;
-        padding-top: 40px;
-        &:first-child {
-            margin-top: 0;
-            padding-top: 0;
-            border-top: none;
+    h2 {
+        color: @brand-primary;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        @media (min-width: 600px) {
+            margin: 20px 45px;
+            font-size: 36px;
         }
-        font-size: 56px;
+
     }
-    > p {
-        font-size: 20px;
+    p {
+        font-size: 18px;
+        line-height: 1.6em;
+        @media (min-width: 600px) {
+            margin: 15px 50px;
+            font-size: 24px;
+        }
     }
 }
 
 .post-preview {
-    background-color: @brand-primary;
+    position: relative;
+    font-size: 28px;
+
+    &:nth-child(9n+1) {
+        background-color: @brand-primary;
+    }
+    &:nth-child(9n+2) {
+        background-color: darken(@brand-primary, 5%);
+    }
+    &:nth-child(9n+3) {
+        background-color: darken(@brand-primary, 10%);
+    }
+    &:nth-child(9n+4) {
+        background-color: darken(@brand-primary, 15%);
+    }
+    &:nth-child(9n+5) {
+        background-color: darken(@brand-primary, 20%);
+    }
+    &:nth-child(9n+6) {
+        background-color: darken(@brand-primary, 15%);
+    }
+    &:nth-child(9n+7) {
+        background-color: darken(@brand-primary, 10%);
+    }
+    &:nth-child(9n+8) {
+        background-color: darken(@brand-primary, 5%);
+    }
+    &:nth-child(9n+9) {
+        background-color: @brand-primary;
+        margin-bottom: 15px;
+    }
+    &:nth-child(9n+10) {
+        background-color: @brand-primary;
+    }
+
     h2 {
+        color: white;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 28px;
-        padding: 10px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        padding: 15px;
+        margin: 0 35px 0 0;
     }
+
     a {
         color: white;
-        span {
-            float: right;
-        }
     }
+
     &:hover {
-        background-color: darken(@brand-primary, 15%);
+        background-color: darken(@brand-primary, 30%);
         transition: all 0.5s;
     }
 
-}
-
-/* Post */
-.post {
-    margin-bottom: 50px;
-    padding-bottom: 40px;
-    border-bottom: #f4f4f4 solid 1px;
-    &:last-child {
-        border-bottom: none;
+    span {
+        color: white;
+        float: right;
+        width: 8%;
+        height: 50%;
+        overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: 10px; bottom: 0; right: 0;
     }
-    h2, h1 {
-        margin-top: 0;
-    }
-    h1 {
-        margin-bottom: 20px;
-    }
-    width: 100%;
-    .clearfix();
-}
 
-/* Sidebar/Aside */
-
-.aside-img {
-    .center;
-    max-width: 200px;
-    border-radius: 50%;
-    border: #f4f4f4 solid 5px;
-    box-sizing: border-box;
-}
-
-.nav-home {
-    display: block;
-    border: #f4f4f4 solid 1px;
-    border-left: none;
-    border-right: none;
-    padding: 10px 0;
-    margin: -10px 0 20px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-
-    .copy {
-        .center()
+    @media (max-width: 600px) {
+        h2, span {
+            font-size: 20px;
+        }
     }
 }
 
@@ -252,7 +268,7 @@ footer {
 }
 
 .soundcite-play:before {
-    font-size: 0.7em;
+    font-size: 0.9em;
     position: relative;
     top: -.05em;
     border: 0.5em solid transparent;
@@ -260,7 +276,7 @@ footer {
 }
 
 .soundcite-pause:before {
-    font-size: 0.7em;
+    font-size: 0.9em;
     position: relative;
     top: -.05em;
     height: 1em;

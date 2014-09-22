@@ -1,3 +1,15 @@
-##[Tame Impala – &ldquo;Elephant&rdquo;](/posts/hello)
+## What&rsquo;s This?
 
-Tame Impala have never shied away from the sounds of classic rock radio, but "Elephant" is the first time they've gone deep into its mythology and symbolism. The first official single from their sophomore LP, Lonerism, initially sounds like a pure top-down songwriting exercise- as in, "let's try to sound like the song's badass title." So, <span class="soundcite soundcite-loaded soundcite-play" data-url="http://media.knightlab.com/soundcite/tame-impala_elephant.mp3" data-start="1" data-end="4820">thick, one-note guitar riffs</span> shuffle and stomp with a heavy beat, while Kevin Parker manages to rhyme "elephant" with "shakin' its big red trunk for the hell of it". But Tame Impala songs are never content to simply plod at one speed, and the song's strange syncopations and rhythmic shifts become hints that this beast can pirouette and shake, too. Abetted by Parker and Dave Fridmann's delectable retro-futurist production, "Elephant" splits wide open during its midsection for an expansive and lyrical guitar jam that these guys are doing better than just about anyone else right now.
+I remember the exact moment. 
+
+I was in the car with my mom as she drove me to the first jazz band practice of the year. I was in 7th grade, and my band director had asked me to learn the bass. It was better than the trombone I played the year before, but the bass wasn&rsquo;t *cool*, not like my older brother&rsquo;s guitar. The bass was just something people needed – utilitarian – and a service I could provide because I could read bass clef.
+
+Then &ldquo;Hysteria&rdquo; came on the radio. And <span class="soundcite" data-start="0" data-end="" data-url="/assets/audio/hysteria_bass.mp3">that bassline</span> came on the radio. Suddenly, playing the bass was something to really get excited about. *Music itself* was something to get excited about. I learned that bassline as quickly as I could, and playing the bass became one of my favorite things in life. To this day, when I pick up a bass, it&rsquo;s one of the first lines I play.
+
+---
+
+Music, more than any other art form, is tied to temporality. We remember a piece of music as a series of individual moments – a song on an album or the hook of a pop song – rather than one whole. Often, one moment can make an entire piece of music worth the time. Indeed, much of music is about building to those moments. Suspension and release, anticipation, dissonance and resolution – all of these musical elements seek to provide memorable moments in a larger piece of music.
+
+---
+
+Euphonos is about those moments. Rather than discussing pieces of music as one whole, Euphonos will focus on the individual moments that make music great.

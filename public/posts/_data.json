@@ -1,17 +1,58 @@
 {
   "elephant": {
-    "title": "Tame Impala - “Elephant”"
+    "artist": "Tame Impala",
+    "song": "Elephant"
   },
   "crooked-legs": {
-    "title": "The Acorn - “Crooked Legs”"
+    "artist": "The Acorn",
+    "song": "Crooked Legs"
   },
   "and-its-alright": {
-    "title": "Peter Broderick - “And It’s Alright”"
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
   },
   "szerencsetlen": {
-    "title": "Venetian Snares - “Szerencsétlen”"
+    "artist": "Venetian Snares",
+    "song": "Szerencsétlen"
   },
   "melodia": {
-    "title": "Johann Johannsson – “Melodia (Guidelines For A Propulsion Device Based On Heim's Quantum Theory)”"
+    "artist": "Johann Johannsson",
+    "song": "Melodia (Guidelines For A Propulsion Device Based On Heim's Quantum Theory)"
+  },
+  "and-its-alright2": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright3": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright4": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright5": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright6": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright7": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright8": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright9": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
+  },
+  "and-its-alright10": {
+    "artist": "Peter Broderick",
+    "song": "And It’s Alright"
   }
 }
